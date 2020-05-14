@@ -1,0 +1,50 @@
+{
+  "0": "m",
+  "1": "a",
+  "2": "n",
+  "3": "a",
+  "4": "g",
+  "5": "e",
+  "6": "d",
+  "expo": {
+    "name": "Covid-19",
+    "slug": "Covid-19",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+     "icon": "./assets/images/logo.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#23c0d9"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.nizam.covid19",
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyBO6RDjMSkLuShefLkPi0lE31ASONFObVo"
+      }
+    },
+     "android": {
+      "package": "com.nizam.covid19",
+      "config": {
+                "googleMaps": {
+                    "apiKey": "AIzaSyBO6RDjMSkLuShefLkPi0lE31ASONFObVo"
+                }
+            }
+    }
+  }
+}
+
